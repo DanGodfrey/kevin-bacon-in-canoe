@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Kevin Bacon</title>
+        <link rel="stylesheet" type="text/css" href="css/kb.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/course.js"></script>
+        <script src="js/degree.js"></script>
+        <script src="js/kb-node.js"></script>
+        <script src="js/kb.js"></script>
+    </head>
+    <body>
+        <p>
+            Want to consider switching degrees? 
+            Already completed a degree and want to pick up a second one? 
+        </p>
+        <p>
+            Kevin Bacon uses the <a href="https://github.com/aybabtme/groscanot">groscanot</a> API to identify degrees with at least one overlapping course with the degree selected. Degrees are sorted by the number of extra courses needed to get the degree. 
+        </p>
+        <p>
+            Courses that would fall into the 'extra' data field are not shown so there maybe additional courses you needed.
+        </p>
+        <p>
+            This is not endorsed by uOttawa. Fuck looking pretty. 
+        </p>
+        <select id="degrees">
+            <option>Select a Degree:</option>
+        </select>
+        <div id="separations">
+        
+        </div>
+    </body>
+</html>
